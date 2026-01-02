@@ -2,7 +2,6 @@ $(document).ready(function () {
 
     $.getJSON("dashboard.json", function (data) {
 
-        /* ================= STATS ================= */
         $("#statsCards").html(`
             <div class="col-md-3">
                 <div class="stat-card orange">
@@ -47,7 +46,6 @@ $(document).ready(function () {
             </div>
         `);
 
-        /* ================= NEXT MATCH ================= */
         $("#nextMatch").html(`
             <h5>Next Match</h5>
             <div class="next-match">
@@ -59,7 +57,6 @@ $(document).ready(function () {
             <button class="btn btn-warning mt-2">Match Details</button>
         `);
 
-        /* ================= RECENT RESULTS ================= */
         data.recentResults.forEach(r => {
             $("#recentResults").append(`
                 <div class="result-item ${r.result === "W" ? "win" : "draw"}">
@@ -73,7 +70,6 @@ $(document).ready(function () {
             `);
         });
 
-        /* ================= TOP PLAYERS ================= */
         data.topPlayers.forEach(p => {
             $("#topPlayers").append(`
                 <div class="player-row">
@@ -86,7 +82,6 @@ $(document).ready(function () {
             `);
         });
 
-        /* ================= SEASON OVERVIEW ================= */
         $("#seasonOverview").html(`
             <h5>Season Overview</h5>
             <div class="row text-center mt-3">
@@ -102,3 +97,4 @@ $(document).ready(function () {
     });
 
 });
+
