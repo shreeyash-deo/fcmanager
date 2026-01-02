@@ -1,0 +1,12 @@
+{
+  "team": {
+    "name": "Thunder FC",
+    "stadium": "Thunder Arena",
+    "capacity": "45,000 seats",
+    "founded": 2018
+  },
+  "about": {
+    "version": "Sports Manager Dashboard v1.0",
+    "description": "Manage your team, track matches, and analyze performance all in one place."
+  }
+}

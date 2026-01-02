@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thunder FC | Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="d-flex">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-trophy"></i>
+                <div>
+                    <h5 id="sidebarTeamName">Thunder FC</h5>
+                    <small>Football Manager</small>
+                </div>
+            </div>
+
+            <ul class="menu">
+            <li class="active" ><i class="fa-solid fa-table-columns"></i>Dashboard</a></li>
+            <li><a href="players.html"><i class="fa-solid fa-users"></i>Players</a></li>
+            <li><a href="matches.html"><i class="fa-solid fa-calendar"></i>Matches</a></li>
+            <li><a href="statistics.html"><i class="fa-solid fa-chart-line"></i>Statistics</a></li>
+            <li><a href="settings.html"><i class="fa-solid fa-gear"></i>Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="content">
+            <h2 >Welcome to <span class="accent",>Thunder FC</span></h2>
+            <p class="subtitle">Your team dashboard · Football Manager</p>
+
+            <!-- STATS CARDS -->
+            <div class="row g-4 mt-4" id="statsCards">
+
+
+                <div class="col-md-3">
+                    <div class="stat-card orange">
+                        <div class="stat-header">
+                            <span>Matches Played</span>
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <h2>13</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-card green">
+                        <div class="stat-header">
+                            <span>Wins</span>
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <h2>8</h2>
+                        <small>62% Win Rate</small>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-card yellow">
+                        <div class="stat-header">
+                            <span>Goals Scored</span>
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <h2>28</h2>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="stat-card blue">
+                        <div class="stat-header">
+                            <span>Squad Size</span>
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h2>12</h2>
+                        <small>Active Players</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- LOWER SECTION -->
+            <div class="row g-4 mt-4">
+
+                <!-- NEXT MATCH -->
+                <div class="col-lg-7">
+                    <div class="card-box" id="nextMatch">
+
+                        <h5>Next Match</h5>
+
+                        <div class="next-match">
+                            <strong>Thunder FC</strong>
+                            <span>VS</span>
+                            <strong>City Rangers</strong>
+                        </div>
+
+                        <p class="match-time">Mon, Jan 15 · 15:00</p>
+
+                        <button class="btn btn-warning mt-2">Match Details</button>
+                    </div>
+                </div>
+
+                <!-- RECENT RESULTS -->
+                <div class="col-lg-5">
+                    <div class="card-box" id="recentResults">
+                        <h5>Recent Results</h5>
+
+                        <div class="result-item win">
+                            <span>W</span>
+                            <div>
+                                <strong>Thunder FC vs Metro Stars</strong>
+                                <small>Home</small>
+                            </div>
+                            <b>3–1</b>
+                        </div>
+
+                        <div class="result-item draw">
+                            <span>D</span>
+                            <div>
+                                <strong>Valley United vs Thunder FC</strong>
+                                <small>Away</small>
+                            </div>
+                            <b>2–2</b>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="row g-4 mt-4">
+
+                <!-- TOP PLAYERS -->
+                <div class="col-lg-7">
+                    <div class="card-box">
+                        <h5>⭐ Top Players</h5>
+
+                        <!-- container for JS -->
+                        <div id="topPlayers"></div>
+                    </div>
+                </div>
+
+                <!-- SEASON OVERVIEW -->
+                <div class="col-lg-5">
+                    <div class="card-box" id="seasonOverview">
+                        <h5>Season Overview</h5>
+
+                        <div class="row text-center mt-3">
+                            <div class="col-6 stat-mini win">8<br><small>Wins</small></div>
+                            <div class="col-6 stat-mini draw">2<br><small>Draws</small></div>
+                            <div class="col-6 stat-mini loss">3<br><small>Losses</small></div>
+                            <div class="col-6 stat-mini clean">5<br><small>Clean Sheets</small></div>
+                        </div>
+
+                        <hr>
+                        <strong>Goal Difference: +16</strong>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="global.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

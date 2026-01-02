@@ -1,0 +1,34 @@
+{
+  "performance": {
+    "winRate": 62,
+    "goalsScored": 28,
+    "cleanSheetRate": 38,
+    "goalsConceded": 12
+  },
+
+  "topScorer": {
+    "name": "Carlos Vega",
+    "code": "CV",
+    "goals": 18
+  },
+
+  "topAssister": {
+    "name": "Pierre Dubois",
+    "code": "PD",
+    "assists": 15
+  },
+
+  "metrics": {
+    "goalsPerMatch": 2.2,
+    "concededPerMatch": 0.9,
+    "avgSkill": 85,
+    "avgAge": 26
+  },
+
+  "seasonSummary": {
+    "totalMatches": 13,
+    "wins": 8,
+    "draws": 2,
+    "losses": 3
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "players": [
+    {
+      "name": "Marcus Sterling",
+      "code": "MS",
+      "country": "GB",
+      "position": "Goalkeeper",
+      "skill": 88,
+      "age": 28,
+      "goals": 0,
+      "assists": 2,
+      "fitness": 92
+    },
+    {
+      "name": "James Rodriguez",
+      "code": "JR",
+      "country": "CO",
+      "position": "Defender",
+      "skill": 82,
+      "age": 25,
+      "goals": 3,
+      "assists": 5,
+      "fitness": 88
+    },
+    {
+      "name": "Lucas Fernandez",
+      "code": "LF",
+      "country": "AR",
+      "position": "Defender",
+      "skill": 85,
+      "age": 27,
+      "goals": 2,
+      "assists": 4,
+      "fitness": 90
+    },
+    {
+      "name": "Alex Santos",
+      "code": "AS",
+      "country": "BR",
+      "position": "Midfielder",
+      "skill": 84,
+      "age": 24,
+      "goals": 7,
+      "assists": 12,
+      "fitness": 91
+    },
+    {
+      "name": "Carlos Vega",
+      "code": "CV",
+      "country": "ES",
+      "position": "Forward",
+      "skill": 91,
+      "age": 25,
+      "goals": 18,
+      "assists": 7,
+      "fitness": 94
+    },
+    {
+      "name": "Omar Hassan",
+      "code": "OH",
+      "country": "EG",
+      "position": "Forward",
+      "skill": 89,
+      "age": 27,
+      "goals": 16,
+      "assists": 5,
+      "fitness": 87
+    },
+    {
+      "name": "David Kim",
+      "code": "DK",
+      "country": "KR",
+      "position": "Defender",
+      "skill": 79,
+      "age": 23,
+      "goals": 1,
+      "assists": 3,
+      "fitness": 94
+    },
+    {
+      "name": "Thomas Müller",
+      "code": "TM",
+      "country": "DE",
+      "position": "Defender",
+      "skill": 86,
+      "age": 30,
+      "goals": 4,
+      "assists": 6,
+      "fitness": 85
+    },
+    {
+      "name": "Pierre Dubois",
+      "code": "PD",
+      "country": "FR",
+      "position": "Midfielder",
+      "skill": 87,
+      "age": 26,
+      "goals": 9,
+      "assists": 15,
+      "fitness": 89
+    },
+    {
+      "name": "Marco Rossi",
+      "code": "MR",
+      "country": "IT",
+      "position": "Midfielder",
+      "skill": 81,
+      "age": 22,
+      "goals": 5,
+      "assists": 8,
+      "fitness": 93
+    },
+    {
+      "name": "Ryan O'Connor",
+      "code": "RO",
+      "country": "IE",
+      "position": "Midfielder",
+      "skill": 83,
+      "age": 29,
+      "goals": 6,
+      "assists": 10,
+      "fitness": 87
+    },
+    {
+      "name": "Kenji Tanaka",
+      "code": "KT",
+      "country": "JP",
+      "position": "Forward",
+      "skill": 86,
+      "age": 23,
+      "goals": 14,
+      "assists": 9,
+      "fitness": 90
+    },
+    {
+      "name": "Liam Walker",
+      "code": "LW",
+      "country": "US",
+      "position": "Goalkeeper",
+      "skill": 75,
+      "age": 21,
+      "goals": 0,
+      "assists": 1,
+      "fitness": 82
+    },
+    {
+      "name": "Miguel Torres",
+      "code": "MT",
+      "country": "MX",
+      "position": "Defender",
+      "skill": 80,
+      "age": 26,
+      "goals": 2,
+      "assists": 4,
+      "fitness": 88
+    },
+    {
+      "name": "Ivan Petrov",
+      "code": "IP",
+      "country": "RU",
+      "position": "Midfielder",
+      "skill": 82,
+      "age": 28,
+      "goals": 6,
+      "assists": 11,
+      "fitness": 86
+    },
+    {
+      "name": "Noah Johnson",
+      "code": "NJ",
+      "country": "CA",
+      "position": "Forward",
+      "skill": 78,
+      "age": 22,
+      "goals": 9,
+      "assists": 4,
+      "fitness": 84
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "matchesPlayed": 13,
+    "wins": 8,
+    "winRate": "62%",
+    "goalsScored": 28,
+    "squadSize": 12
+  },
+
+  "nextMatch": {
+    "home": "Thunder FC",
+    "away": "City Rangers",
+    "date": "Mon, Jan 15",
+    "time": "15:00"
+  },
+
+  "recentResults": [
+    {
+      "result": "W",
+      "match": "Thunder FC vs Metro Stars",
+      "location": "Home",
+      "score": "3–1"
+    },
+    {
+      "result": "D",
+      "match": "Valley United vs Thunder FC",
+      "location": "Away",
+      "score": "2–2"
+    }
+  ],
+
+  "topPlayers": [
+    {
+      "name": "Carlos Vega",
+      "position": "Forward",
+      "skill": 91
+    },
+    {
+      "name": "Omar Hassan",
+      "position": "Forward",
+      "skill": 89
+    },
+    {
+      "name": "Marcus Sterling",
+      "position": "Goalkeeper",
+      "skill": 88
+    }
+  ],
+
+  "seasonOverview": {
+    "wins": 8,
+    "draws": 2,
+    "losses": 3,
+    "cleanSheets": 5,
+    "goalDifference": "+16"
+  }
+}

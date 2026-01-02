@@ -1,0 +1,54 @@
+{
+  "matches": [
+    {
+      "date": "Monday, January 15, 2024",
+      "home": "Thunder FC",
+      "homeCode": "TF",
+      "away": "City Rangers",
+      "awayCode": "CR",
+      "time": "15:00",
+      "venue": "Home Stadium",
+      "status": "upcoming"
+    },
+    {
+      "date": "Monday, January 22, 2024",
+      "home": "United FC",
+      "homeCode": "UF",
+      "away": "Thunder FC",
+      "awayCode": "TF",
+      "time": "18:30",
+      "venue": "Away Arena",
+      "status": "upcoming"
+    },
+    {
+      "date": "Monday, January 29, 2024",
+      "home": "Thunder FC",
+      "homeCode": "TF",
+      "away": "Royal Athletic",
+      "awayCode": "RA",
+      "time": "20:00",
+      "venue": "Home Stadium",
+      "status": "upcoming"
+    },
+    {
+      "date": "Monday, January 8, 2024",
+      "home": "Thunder FC",
+      "homeCode": "TF",
+      "away": "Metro Stars",
+      "awayCode": "MS",
+      "score": "3 - 1",
+      "venue": "Home Stadium",
+      "status": "victory"
+    },
+    {
+      "date": "Monday, January 1, 2024",
+      "home": "Valley United",
+      "homeCode": "VU",
+      "away": "Thunder FC",
+      "awayCode": "TF",
+      "score": "2 - 2",
+      "venue": "Away Arena",
+      "status": "draw"
+    }
+  ]
+}
